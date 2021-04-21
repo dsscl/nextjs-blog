@@ -10,10 +10,10 @@ export default function Home({
   allPostsData
 } : {
   allPostsData: {
-    date: string,
-    title: string,
+    date: string
+    title: string
     id: string
-  }
+  }[]
 }) {
   return (
     <Layout home>
